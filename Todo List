@@ -1,0 +1,16 @@
+Task: Build a simple To-Do List app using React Native.
+
+Requirements:
+
+  The app should display a list of to-do items.
+  Users should be able to add new to-do items by entering text in an input field and pressing a "Add" button.
+  Each to-do item should have a checkbox to mark the item as completed or not. When an item is marked as completed, its text should have a strikethrough effect.
+  Users should be able to delete a to-do item by pressing a "Delete" button next to the item.
+  The app should have proper styling and be responsive on different devices.
+
+Evaluation Criteria:
+
+  Correctness: The app should meet all the specified requirements.
+  Code Quality: The code should be clean, well-structured, and easy to understand. The use of components, hooks, and state management should be appropriate.
+  Error Handling: The app should handle edge cases and user input errors gracefully.
+  Design & User Experience: The app should have a visually appealing design and be easy to use.

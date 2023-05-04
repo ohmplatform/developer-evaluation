@@ -5,10 +5,9 @@ import { IAppTheme } from '../../constants/theme';
 import useUserThemeStore, { UserTheme } from '../../store/theme';
 import { APP_IMAGES } from '../../assets/images';
 import { APP_COLORS } from '../../constants/colors';
+import { hp, wp } from '../../utils/responsive';
 
 const ThemeToggler = ({ }: any) => {
-
-    const { colors }: IAppTheme = useTheme();
 
     const theme = useUserThemeStore(state => state.theme);
 
@@ -17,7 +16,6 @@ const ThemeToggler = ({ }: any) => {
     const handleOnPressToggle = useCallback(() => {
         setUserTheme(theme === UserTheme.DARK ? UserTheme.LIGHT : UserTheme.DARK);
     }, [theme, setUserTheme]);
-
 
     return (
         <TouchableOpacity onPress={handleOnPressToggle} style={styles.container}>
@@ -35,12 +33,12 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     container: {
-        marginRight: 15,
+        marginRight: hp(15),
         borderWidth: StyleSheet.hairlineWidth,
-        borderRadius: 8,
+        borderRadius: wp(8),
         borderColor: APP_COLORS.TEXT_GRAY_LIGHT,
-        width: 36,
-        height: 36,
-        padding: 2,
+        width: wp(36),
+        height: hp(36),
+        padding: wp(2),
     }
 })

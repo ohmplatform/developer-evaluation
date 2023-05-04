@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native"
 import { APP_COLORS } from "../../constants/colors"
 import { hp, wp, fontResponsive } from "../../utils/responsive"
+import { CUSTOM_FONT_FAMILY } from "../../constants/theme"
 
 
 const styles = StyleSheet.create({
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
         marginLeft: wp(10)
     },
     titleText: {
-        // fontFamily: CUSTOM_FONT_FAMILY?.GintoNormal?.Black,
+        fontFamily: CUSTOM_FONT_FAMILY?.Ginto?.Medium,
         fontSize: fontResponsive(20),
         textAlign: 'center',
     },

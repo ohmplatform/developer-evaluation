@@ -8,40 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TodoAppTests.m */; };
+		03EE9321B1754F438D5CCB63 /* GintoNormal-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5296F983145443A296456E18 /* GintoNormal-MediumItalic-Trial.otf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TodoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TodoApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-TodoApp-TodoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		451F0687712F440A89FDAA05 /* GintoNord-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE31A68E251145F9863AD283 /* GintoNord-Black.otf */; };
-		A9F261AE45554E75BEE70F4D /* GintoNord-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85AA93FE517F4627AA18063A /* GintoNord-BlackItalic.otf */; };
-		20176ECA9F4242CAA083CED6 /* GintoNord-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 201A217AAD174AA198FAA495 /* GintoNord-Bold.otf */; };
-		1EA6703392A2413CAD42E929 /* GintoNord-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 29734879E1F94533A192A73B /* GintoNord-BoldItalic.otf */; };
-		58AD88279BC443C6A1EE2E8D /* GintoNord-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9803652E1C1B436D816765C5 /* GintoNord-Hairline.otf */; };
-		F288D2BF650F4A998E67E0F0 /* GintoNord-HairlineItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A0DBC2C75534CBBB31C344F /* GintoNord-HairlineItalic.otf */; };
-		BC5D659E84374CDF9A112191 /* GintoNord-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBB60B2684E941D59D364D57 /* GintoNord-Light.otf */; };
-		BD793766DBC2417AA6F4C54B /* GintoNord-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AF4E53E6F4BCB9D126437 /* GintoNord-LightItalic.otf */; };
-		B7868C244B5E4AA4845DD30B /* GintoNord-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15154AEFC6F4D9280B46AC6 /* GintoNord-Medium.otf */; };
-		7D43822EA6A043939D0A2A19 /* GintoNord-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF6A03C1FA04C8EBAED3111 /* GintoNord-Regular.otf */; };
-		9161E3742E8A4847A9C50AEE /* GintoNord-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD6265F9E369433D84CDE032 /* GintoNord-RegularItalic.otf */; };
-		547C74DEE8824ADD90289B83 /* GintoNord-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 005A5669BD8F46CA8E09615D /* GintoNord-Thin.otf */; };
-		BC74D6E0A07F42AAB0F7B641 /* GintoNord-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B105110D47F24D63A5E3F524 /* GintoNord-ThinItalic.otf */; };
-		5F8FE08CE4AE48588A1745D6 /* GintoNord-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 653F1E7B55FD46F985CCF62B /* GintoNord-Ultra.otf */; };
-		83F7A84B13CA4BA9BA73AE21 /* GintoNord-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8143412DF1D34019B54D0AAE /* GintoNord-UltraItalic.otf */; };
-		561D7DF11FA647A485FE1D62 /* GintoNormal-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83494E17EDDD4CB3B71074D5 /* GintoNormal-Black.otf */; };
-		ABF7EEE997D3467C9E3326E2 /* GintoNormal-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1581457064148EF92BEF511 /* GintoNormal-BlackItalic-Trial.otf */; };
-		FF5FF82869ED481798339724 /* GintoNormal-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE3EC592A649478CF0CB29 /* GintoNormal-Bold-Trial.otf */; };
-		24C0A3DC29144E6FA7B54485 /* GintoNormal-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D5729B9FDA74C818E787069 /* GintoNormal-BoldItalic-Trial.otf */; };
 		1C6BE7A618B8486DA56B59E7 /* GintoNormal-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6CA4CCBF1E149A699D575F1 /* GintoNormal-Light-Trial.otf */; };
+		1EA6703392A2413CAD42E929 /* GintoNord-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 29734879E1F94533A192A73B /* GintoNord-BoldItalic.otf */; };
+		20176ECA9F4242CAA083CED6 /* GintoNord-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 201A217AAD174AA198FAA495 /* GintoNord-Bold.otf */; };
+		24C0A3DC29144E6FA7B54485 /* GintoNormal-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D5729B9FDA74C818E787069 /* GintoNormal-BoldItalic-Trial.otf */; };
+		451F0687712F440A89FDAA05 /* GintoNord-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE31A68E251145F9863AD283 /* GintoNord-Black.otf */; };
+		547C74DEE8824ADD90289B83 /* GintoNord-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 005A5669BD8F46CA8E09615D /* GintoNord-Thin.otf */; };
+		561D7DF11FA647A485FE1D62 /* GintoNormal-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83494E17EDDD4CB3B71074D5 /* GintoNormal-Black.otf */; };
+		58AD88279BC443C6A1EE2E8D /* GintoNord-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9803652E1C1B436D816765C5 /* GintoNord-Hairline.otf */; };
+		5F8FE08CE4AE48588A1745D6 /* GintoNord-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 653F1E7B55FD46F985CCF62B /* GintoNord-Ultra.otf */; };
+		7699B88040F8A987B510C191 /* libPods-TodoApp-TodoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */; };
 		7A779E26DFFA4894A01890E6 /* GintoNormal-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = E92AB343A9FE4DEB9FA92AE2 /* GintoNormal-LightItalic-Trial.otf */; };
+		7D43822EA6A043939D0A2A19 /* GintoNord-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF6A03C1FA04C8EBAED3111 /* GintoNord-Regular.otf */; };
+		7FD623ACFCDB404991C7F9A5 /* GintoNord-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1067C6DD046D890B5E30D /* GintoNord-Black.woff */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83F7A84B13CA4BA9BA73AE21 /* GintoNord-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8143412DF1D34019B54D0AAE /* GintoNord-UltraItalic.otf */; };
+		9161E3742E8A4847A9C50AEE /* GintoNord-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD6265F9E369433D84CDE032 /* GintoNord-RegularItalic.otf */; };
 		A986CC825B1742C8A12AF37C /* GintoNormal-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = A823BA1468954A4DA2A9A90D /* GintoNormal-Medium-Trial.otf */; };
-		03EE9321B1754F438D5CCB63 /* GintoNormal-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5296F983145443A296456E18 /* GintoNormal-MediumItalic-Trial.otf */; };
+		A9F261AE45554E75BEE70F4D /* GintoNord-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85AA93FE517F4627AA18063A /* GintoNord-BlackItalic.otf */; };
+		ABF7EEE997D3467C9E3326E2 /* GintoNormal-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1581457064148EF92BEF511 /* GintoNormal-BlackItalic-Trial.otf */; };
+		B7868C244B5E4AA4845DD30B /* GintoNord-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15154AEFC6F4D9280B46AC6 /* GintoNord-Medium.otf */; };
+		BC5D659E84374CDF9A112191 /* GintoNord-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBB60B2684E941D59D364D57 /* GintoNord-Light.otf */; };
+		BC74D6E0A07F42AAB0F7B641 /* GintoNord-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B105110D47F24D63A5E3F524 /* GintoNord-ThinItalic.otf */; };
+		BD793766DBC2417AA6F4C54B /* GintoNord-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AF4E53E6F4BCB9D126437 /* GintoNord-LightItalic.otf */; };
 		C5BE870E8D7E41E18E73CFDB /* GintoNormal-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4A336F0E974994962FE994 /* GintoNormal-Regular-Trial.otf */; };
 		C6E82543B935447988B91E19 /* GintoNormal-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7502C5EDFEE847A49FA8F58C /* GintoNormal-RegularItalic-Trial.otf */; };
 		D4B1DE1251E1444FACC43261 /* GintoNordWidthsVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9300FBE9BF6945FEB1307239 /* GintoNordWidthsVariable.ttf */; };
+		F288D2BF650F4A998E67E0F0 /* GintoNord-HairlineItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A0DBC2C75534CBBB31C344F /* GintoNord-HairlineItalic.otf */; };
 		F6A7E02B46D345449A327045 /* GintoNormalVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD05B0B1CE846B288F274D9 /* GintoNormalVariable.ttf */; };
-		7FD623ACFCDB404991C7F9A5 /* GintoNord-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1067C6DD046D890B5E30D /* GintoNord-Black.woff */; };
+		FF5FF82869ED481798339724 /* GintoNormal-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1BE3EC592A649478CF0CB29 /* GintoNormal-Bold-Trial.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005A5669BD8F46CA8E09615D /* GintoNord-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Thin.otf"; path = "../src/assets/fonts/GintoNord-Thin.otf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TodoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoAppTests.m; sourceTree = "<group>"; };
@@ -65,41 +66,40 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TodoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TodoApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TodoApp-TodoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodoApp-TodoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4A336F0E974994962FE994 /* GintoNormal-Regular-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-Regular-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Regular-Trial.otf"; sourceTree = "<group>"; };
+		201A217AAD174AA198FAA495 /* GintoNord-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Bold.otf"; path = "../src/assets/fonts/GintoNord-Bold.otf"; sourceTree = "<group>"; };
+		29734879E1F94533A192A73B /* GintoNord-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-BoldItalic.otf"; path = "../src/assets/fonts/GintoNord-BoldItalic.otf"; sourceTree = "<group>"; };
+		2CF6A03C1FA04C8EBAED3111 /* GintoNord-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Regular.otf"; path = "../src/assets/fonts/GintoNord-Regular.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-TodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.debug.xcconfig"; path = "Target Support Files/Pods-TodoApp/Pods-TodoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD05B0B1CE846B288F274D9 /* GintoNormalVariable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GintoNormalVariable.ttf; path = ../src/assets/fonts/GintoNormalVariable.ttf; sourceTree = "<group>"; };
+		3D2AF4E53E6F4BCB9D126437 /* GintoNord-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-LightItalic.otf"; path = "../src/assets/fonts/GintoNord-LightItalic.otf"; sourceTree = "<group>"; };
+		5296F983145443A296456E18 /* GintoNormal-MediumItalic-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-MediumItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp.release.xcconfig"; path = "Target Support Files/Pods-TodoApp/Pods-TodoApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A0DBC2C75534CBBB31C344F /* GintoNord-HairlineItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-HairlineItalic.otf"; path = "../src/assets/fonts/GintoNord-HairlineItalic.otf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TodoApp-TodoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp-TodoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TodoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653F1E7B55FD46F985CCF62B /* GintoNord-Ultra.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Ultra.otf"; path = "../src/assets/fonts/GintoNord-Ultra.otf"; sourceTree = "<group>"; };
+		6EE1067C6DD046D890B5E30D /* GintoNord-Black.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Black.woff"; path = "../src/assets/fonts/GintoNord-Black.woff"; sourceTree = "<group>"; };
+		7502C5EDFEE847A49FA8F58C /* GintoNormal-RegularItalic-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-RegularItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		7D5729B9FDA74C818E787069 /* GintoNormal-BoldItalic-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-BoldItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		8143412DF1D34019B54D0AAE /* GintoNord-UltraItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-UltraItalic.otf"; path = "../src/assets/fonts/GintoNord-UltraItalic.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TodoApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83494E17EDDD4CB3B71074D5 /* GintoNormal-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-Black.otf"; path = "../src/assets/fonts/GintoNormal-Black.otf"; sourceTree = "<group>"; };
+		85AA93FE517F4627AA18063A /* GintoNord-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-BlackItalic.otf"; path = "../src/assets/fonts/GintoNord-BlackItalic.otf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp-TodoAppTests.release.xcconfig"; path = "Target Support Files/Pods-TodoApp-TodoAppTests/Pods-TodoApp-TodoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9300FBE9BF6945FEB1307239 /* GintoNordWidthsVariable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GintoNordWidthsVariable.ttf; path = ../src/assets/fonts/GintoNordWidthsVariable.ttf; sourceTree = "<group>"; };
+		9803652E1C1B436D816765C5 /* GintoNord-Hairline.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Hairline.otf"; path = "../src/assets/fonts/GintoNord-Hairline.otf"; sourceTree = "<group>"; };
+		A1BE3EC592A649478CF0CB29 /* GintoNormal-Bold-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-Bold-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Bold-Trial.otf"; sourceTree = "<group>"; };
+		A823BA1468954A4DA2A9A90D /* GintoNormal-Medium-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-Medium-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Medium-Trial.otf"; sourceTree = "<group>"; };
+		AE31A68E251145F9863AD283 /* GintoNord-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Black.otf"; path = "../src/assets/fonts/GintoNord-Black.otf"; sourceTree = "<group>"; };
+		B105110D47F24D63A5E3F524 /* GintoNord-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-ThinItalic.otf"; path = "../src/assets/fonts/GintoNord-ThinItalic.otf"; sourceTree = "<group>"; };
+		B1581457064148EF92BEF511 /* GintoNormal-BlackItalic-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-BlackItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		BD6265F9E369433D84CDE032 /* GintoNord-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-RegularItalic.otf"; path = "../src/assets/fonts/GintoNord-RegularItalic.otf"; sourceTree = "<group>"; };
+		C15154AEFC6F4D9280B46AC6 /* GintoNord-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Medium.otf"; path = "../src/assets/fonts/GintoNord-Medium.otf"; sourceTree = "<group>"; };
+		E92AB343A9FE4DEB9FA92AE2 /* GintoNormal-LightItalic-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-LightItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		EBB60B2684E941D59D364D57 /* GintoNord-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNord-Light.otf"; path = "../src/assets/fonts/GintoNord-Light.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		AE31A68E251145F9863AD283 /* GintoNord-Black.otf */ = {isa = PBXFileReference; name = "GintoNord-Black.otf"; path = "../src/assets/fonts/GintoNord-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		85AA93FE517F4627AA18063A /* GintoNord-BlackItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-BlackItalic.otf"; path = "../src/assets/fonts/GintoNord-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		201A217AAD174AA198FAA495 /* GintoNord-Bold.otf */ = {isa = PBXFileReference; name = "GintoNord-Bold.otf"; path = "../src/assets/fonts/GintoNord-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		29734879E1F94533A192A73B /* GintoNord-BoldItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-BoldItalic.otf"; path = "../src/assets/fonts/GintoNord-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9803652E1C1B436D816765C5 /* GintoNord-Hairline.otf */ = {isa = PBXFileReference; name = "GintoNord-Hairline.otf"; path = "../src/assets/fonts/GintoNord-Hairline.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5A0DBC2C75534CBBB31C344F /* GintoNord-HairlineItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-HairlineItalic.otf"; path = "../src/assets/fonts/GintoNord-HairlineItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EBB60B2684E941D59D364D57 /* GintoNord-Light.otf */ = {isa = PBXFileReference; name = "GintoNord-Light.otf"; path = "../src/assets/fonts/GintoNord-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3D2AF4E53E6F4BCB9D126437 /* GintoNord-LightItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-LightItalic.otf"; path = "../src/assets/fonts/GintoNord-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C15154AEFC6F4D9280B46AC6 /* GintoNord-Medium.otf */ = {isa = PBXFileReference; name = "GintoNord-Medium.otf"; path = "../src/assets/fonts/GintoNord-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2CF6A03C1FA04C8EBAED3111 /* GintoNord-Regular.otf */ = {isa = PBXFileReference; name = "GintoNord-Regular.otf"; path = "../src/assets/fonts/GintoNord-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BD6265F9E369433D84CDE032 /* GintoNord-RegularItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-RegularItalic.otf"; path = "../src/assets/fonts/GintoNord-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		005A5669BD8F46CA8E09615D /* GintoNord-Thin.otf */ = {isa = PBXFileReference; name = "GintoNord-Thin.otf"; path = "../src/assets/fonts/GintoNord-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B105110D47F24D63A5E3F524 /* GintoNord-ThinItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-ThinItalic.otf"; path = "../src/assets/fonts/GintoNord-ThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		653F1E7B55FD46F985CCF62B /* GintoNord-Ultra.otf */ = {isa = PBXFileReference; name = "GintoNord-Ultra.otf"; path = "../src/assets/fonts/GintoNord-Ultra.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8143412DF1D34019B54D0AAE /* GintoNord-UltraItalic.otf */ = {isa = PBXFileReference; name = "GintoNord-UltraItalic.otf"; path = "../src/assets/fonts/GintoNord-UltraItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		83494E17EDDD4CB3B71074D5 /* GintoNormal-Black.otf */ = {isa = PBXFileReference; name = "GintoNormal-Black.otf"; path = "../src/assets/fonts/GintoNormal-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B1581457064148EF92BEF511 /* GintoNormal-BlackItalic-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-BlackItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-BlackItalic-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A1BE3EC592A649478CF0CB29 /* GintoNormal-Bold-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-Bold-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Bold-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7D5729B9FDA74C818E787069 /* GintoNormal-BoldItalic-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-BoldItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-BoldItalic-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F6CA4CCBF1E149A699D575F1 /* GintoNormal-Light-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-Light-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Light-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E92AB343A9FE4DEB9FA92AE2 /* GintoNormal-LightItalic-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-LightItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-LightItalic-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A823BA1468954A4DA2A9A90D /* GintoNormal-Medium-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-Medium-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Medium-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5296F983145443A296456E18 /* GintoNormal-MediumItalic-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-MediumItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-MediumItalic-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1F4A336F0E974994962FE994 /* GintoNormal-Regular-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-Regular-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Regular-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7502C5EDFEE847A49FA8F58C /* GintoNormal-RegularItalic-Trial.otf */ = {isa = PBXFileReference; name = "GintoNormal-RegularItalic-Trial.otf"; path = "../src/assets/fonts/GintoNormal-RegularItalic-Trial.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9300FBE9BF6945FEB1307239 /* GintoNordWidthsVariable.ttf */ = {isa = PBXFileReference; name = "GintoNordWidthsVariable.ttf"; path = "../src/assets/fonts/GintoNordWidthsVariable.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3CD05B0B1CE846B288F274D9 /* GintoNormalVariable.ttf */ = {isa = PBXFileReference; name = "GintoNormalVariable.ttf"; path = "../src/assets/fonts/GintoNormalVariable.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6EE1067C6DD046D890B5E30D /* GintoNord-Black.woff */ = {isa = PBXFileReference; name = "GintoNord-Black.woff"; path = "../src/assets/fonts/GintoNord-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6CA4CCBF1E149A699D575F1 /* GintoNormal-Light-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GintoNormal-Light-Trial.otf"; path = "../src/assets/fonts/GintoNormal-Light-Trial.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,19 +194,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-TodoApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-TodoApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-TodoApp-TodoAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B9EB6E3EDFFD48859C8DCD5E /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				AE31A68E251145F9863AD283 /* GintoNord-Black.otf */,
 				85AA93FE517F4627AA18063A /* GintoNord-BlackItalic.otf */,
@@ -238,8 +227,19 @@
 				6EE1067C6DD046D890B5E30D /* GintoNord-Black.woff */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-TodoApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-TodoApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-TodoApp-TodoAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-TodoApp-TodoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

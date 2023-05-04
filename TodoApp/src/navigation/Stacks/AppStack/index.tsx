@@ -19,14 +19,10 @@ const AppStackScreens: IAppStackScreen[] = [
     }
 ]
 
-
 const AppStack = () => {
     return (
         <AppStackNavigator.Navigator
             initialRouteName={APP_ROUTES.USER.TODOS as keyof AppStackParamList | undefined}
-        // screenOptions={{
-        //     headerShown: false,
-        // }}
         >
             {AppStackScreens.map(({ name, component }) => {
                 return (

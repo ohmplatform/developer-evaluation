@@ -4,4 +4,5 @@ export const APP_IMAGES = {
     backButtonIcon: require('./backButtonIcon.png'),
     doneIcon: require('./doneIcon.png'),
     deleteIcon: require('./deleteIcon.png'),
+    plusIcon: require('./plus.png')
 }

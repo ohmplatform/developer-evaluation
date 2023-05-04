@@ -8,6 +8,7 @@ import Input from '../../../../components/Input';
 import { BottomSheetTextInput } from '@gorhom/bottom-sheet';
 import Button from '../../../../components/Button';
 import { addTodoToFirebase } from '../../../../service/Todo';
+import { APP_GRADIENTS } from '../../../../constants/colors';
 
 type AddTodoViewProps = {
     navigateToView: (view: AddTodoBottomSheetViews) => void
@@ -28,7 +29,7 @@ const AddTodoView = ({ navigateToView }: AddTodoViewProps) => {
 
     return (
         <View style={[styles.container, { backgroundColor: colors.background }]}>
-            <BottomSheetHeader Title='New Todo' backPress={closeBottomSheet} />
+            <BottomSheetHeader Title='New Todo Task' backPress={closeBottomSheet} />
             <View style={styles.containerSetting}>
                 <Input
                     InputComponent={BottomSheetTextInput}
@@ -39,7 +40,7 @@ const AddTodoView = ({ navigateToView }: AddTodoViewProps) => {
                 />
                 <Button
                     disabled={todo.length >= 2 ? false : true}
-                    gradientColors={['#406BDF', '#5929DF']}
+                    gradientColors={APP_GRADIENTS.PURPLE}
                     mainContainerStyle={styles.buttonStyle}
                     onPress={onPressSubmit}
                     text={'Add'}

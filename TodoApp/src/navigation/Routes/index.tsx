@@ -6,7 +6,7 @@ interface IAppRoutes {
 
 export const APP_ROUTES: IAppRoutes = {
     USER: {
-        TODOS: 'Todos',
+        TODOS: 'My Todos',
     }
 }
 

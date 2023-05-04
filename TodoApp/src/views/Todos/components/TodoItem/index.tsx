@@ -1,7 +1,7 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React, { useCallback, useMemo } from 'react'
 import { useTheme } from '@react-navigation/native';
-import { IAppTheme } from '../../../../constants/theme';
+import { CUSTOM_FONT_FAMILY, IAppTheme } from '../../../../constants/theme';
 import { doc } from 'firebase/firestore';
 import { FIRESTORE_DB } from '../../../../firebase/config';
 import { fontResponsive, wp } from '../../../../utils/responsive';
@@ -17,6 +17,7 @@ interface Props {
 }
 
 const TodoItemListView = ({ title, id, done, toggleTodoDone, deleteTodo }: Props) => {
+    
     const { colors }: IAppTheme = useTheme();
 
     const docRef = useMemo(() => doc(FIRESTORE_DB, `todos/${id}`), [id]);
@@ -38,10 +39,7 @@ const TodoItemListView = ({ title, id, done, toggleTodoDone, deleteTodo }: Props
         }
     },[done])
 
-    // console.log("colro set " , borderColor)
-
     return (
-
         <LinearGradient
             colors={borderColor}
             style={styles.gradient}
@@ -54,7 +52,7 @@ const TodoItemListView = ({ title, id, done, toggleTodoDone, deleteTodo }: Props
                         done ? <Image source={APP_IMAGES.doneIcon} style={styles.doneContainer} /> :
                             <View style={[styles.pendingContainer]} />
                     }
-                    <Text style={[styles.titleText, { color: colors.text }]}>{title}</Text>
+                    <Text style={[styles.titleText, { color: colors.text , fontFamily: CUSTOM_FONT_FAMILY.Ginto?.Medium}]}>{title}</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={onDeleteTodo}>
                     <Image source={APP_IMAGES.deleteIcon} style={styles.doneContainer} />
@@ -74,9 +72,6 @@ const styles = StyleSheet.create({
         borderColor: 'gray',
         borderRadius: wp(24),
         flexDirection: 'row',
-        // backgroundColor: ,
-        // marginTop: wp(5),
-        // marginHorizontal: wp(2),
     },
     titleText: {
         fontSize: fontResponsive(15),

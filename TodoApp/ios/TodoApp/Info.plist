@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,35 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GintoNord-Black.otf</string>
+		<string>GintoNord-BlackItalic.otf</string>
+		<string>GintoNord-Bold.otf</string>
+		<string>GintoNord-BoldItalic.otf</string>
+		<string>GintoNord-Hairline.otf</string>
+		<string>GintoNord-HairlineItalic.otf</string>
+		<string>GintoNord-Light.otf</string>
+		<string>GintoNord-LightItalic.otf</string>
+		<string>GintoNord-Medium.otf</string>
+		<string>GintoNord-Regular.otf</string>
+		<string>GintoNord-RegularItalic.otf</string>
+		<string>GintoNord-Thin.otf</string>
+		<string>GintoNord-ThinItalic.otf</string>
+		<string>GintoNord-Ultra.otf</string>
+		<string>GintoNord-UltraItalic.otf</string>
+		<string>GintoNormal-Black.otf</string>
+		<string>GintoNormal-BlackItalic-Trial.otf</string>
+		<string>GintoNormal-Bold-Trial.otf</string>
+		<string>GintoNormal-BoldItalic-Trial.otf</string>
+		<string>GintoNormal-Light-Trial.otf</string>
+		<string>GintoNormal-LightItalic-Trial.otf</string>
+		<string>GintoNormal-Medium-Trial.otf</string>
+		<string>GintoNormal-MediumItalic-Trial.otf</string>
+		<string>GintoNormal-Regular-Trial.otf</string>
+		<string>GintoNormal-RegularItalic-Trial.otf</string>
+		<string>GintoNordWidthsVariable.ttf</string>
+		<string>GintoNormalVariable.ttf</string>
+	</array>
 </dict>
 </plist>

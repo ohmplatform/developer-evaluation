@@ -1,0 +1,117 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/GintoNord-Black.otf",
+      "sha1": "5ad1f0425ea4c446a56469bdf5a462d5288e3f10"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Black.woff",
+      "sha1": "f34a027be9620e2276c3a8b2503df8a0cfa715d5"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-BlackItalic.otf",
+      "sha1": "ed35e52565720f91f9ab4f2cf8607b6fb34a1ff5"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Bold.otf",
+      "sha1": "33393ac952e9e413c6777122e8d46bf91a03e053"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-BoldItalic.otf",
+      "sha1": "0272657c68d29eb3f31fd76ebaabfa38b1455cec"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Hairline.otf",
+      "sha1": "54b15c479d04bf0821364997ff153536ff06763d"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-HairlineItalic.otf",
+      "sha1": "ed405765ffb63f18c39f2a28fc38947d2a5fcbcb"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Light.otf",
+      "sha1": "6a087cd19779b347e02f2fc3f4f1b133e4f279fc"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-LightItalic.otf",
+      "sha1": "61d549d2cfab1dd8abff05af29b02f9c2acd6b1e"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Medium.otf",
+      "sha1": "ecd9061fa32df1ac7993d754be940df31500becd"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Regular.otf",
+      "sha1": "33dfdfbd5998847b62420256168ba79b945c3cea"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-RegularItalic.otf",
+      "sha1": "79f72cd830797f1e56870bd71126d7ee2f539632"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Thin.otf",
+      "sha1": "5c770898d195f908a37a8360d560350caad1ece0"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-ThinItalic.otf",
+      "sha1": "b4c16aad4b739e2f5f130deb066bf12a8b7e830e"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-Ultra.otf",
+      "sha1": "5ea380da74a27ea23d30e1aaa8ed11e84abdea59"
+    },
+    {
+      "path": "src/assets/fonts/GintoNord-UltraItalic.otf",
+      "sha1": "d7718b0c6c7096646fa408fdd5e2c7db665f67ca"
+    },
+    {
+      "path": "src/assets/fonts/GintoNordWidthsVariable.ttf",
+      "sha1": "40afc760d579fafdd5771789ea080c2adb677891"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-Black.otf",
+      "sha1": "38edbaa54ff002bb83bc8b5d68e56b173086e1fe"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-BlackItalic-Trial.otf",
+      "sha1": "ab7703978b90844967500018cbe231c62cb80935"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-Bold-Trial.otf",
+      "sha1": "d1456a12350e5077f2d27d4458ada0b5f0975894"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-BoldItalic-Trial.otf",
+      "sha1": "c44f8acb8dba65799e21fbee769076309ad07c61"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-Light-Trial.otf",
+      "sha1": "60ba328c310a4edf27c5fe91fd2a4bca112445b9"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-LightItalic-Trial.otf",
+      "sha1": "caac2e0de0fa3a1019029c5c7db1faf2f0c86a0a"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-Medium-Trial.otf",
+      "sha1": "4ca11da1f84e42cfb1810cbba8d41bfe0f6d2162"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-MediumItalic-Trial.otf",
+      "sha1": "cdedbaf166d928addee8669fff889a6273de3a0f"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-Regular-Trial.otf",
+      "sha1": "d15a5eb759d76b6d5ea6eae198d271c07aa09154"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormal-RegularItalic-Trial.otf",
+      "sha1": "37a75ce0ea3d4f7fc7b8c8b4c63e6e4da429014d"
+    },
+    {
+      "path": "src/assets/fonts/GintoNormalVariable.ttf",
+      "sha1": "f62a810322b442f6d0378720d144e656755c2c62"
+    }
+  ]
+}

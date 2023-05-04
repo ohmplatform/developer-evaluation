@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React, { useCallback, useContext, useEffect, useLayoutEffect, useState } from 'react'
 import { useNavigation, useTheme } from '@react-navigation/native'
-import { IAppTheme } from '../../constants/theme';
+import { CUSTOM_FONT_FAMILY, IAppTheme } from '../../constants/theme';
 import ThemeToggler from '../../components/ThemeToggler';
 import useUserThemeStore from '../../store/theme';
 import { AddTodoBottomSheetContext } from '../../providers/AddTodoBottomSheet';

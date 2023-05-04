@@ -44,3 +44,46 @@ export const CUSTOM_LIGHT_THEME: IAppTheme = {
         background_light_gray: APP_COLORS.BACKGROUND_LIGHT,
     }
 }
+
+
+export const CUSTOM_FONT_FAMILY = {
+    "Ginto": Platform.select({
+        ios: {
+            Black: 'ABCGintoNordBlackUnlicensedTrial-Black',
+            BlackItalic: 'ABCGintoNordBlackUnlicensedTrial-BlackItalic',
+            Bold: 'ABCGintoNordUnlicensedTrial-Bold',
+            BoldItalic: 'ABCGintoNordUnlicensedTrial-BoldItalic',
+            Hairline: 'ABCGintoNordHairlineUnlicensedTrial-Hairline',
+            HairlineItalic: 'ABCGintoNordHairlineUnlicensedTrial-HairlineItalic',
+            Light: 'ABCGintoNordLightUnlicensedTrial-Light',
+            LightItalic: 'ABCGintoNordLightUnlicensedTrial-LightItalic',
+            Medium: 'ABCGintoNordMediumUnlicensedTrial-Medium',
+            Regular: 'ABCGintoNordUnlicensedTrial-Regular',
+            RegularItalic: 'ABCGintoNordUnlicensedTrial-RegularItalic',
+            Thin: 'ABCGintoNordThinUnlicensedTrial-Thin',
+            ThinItalic: 'ABCGintoNordThinUnlicensedTrial-ThinItalic',
+            Ultra: 'ABCGintoNordUltraUnlicensedTrial-Ultra',
+            UltraItalic: 'ABCGintoNordUltraUnlicensedTrial-UltraItalic',
+            Widths: 'ABCGintoNordWidthsUnlicensedTrial-Widths',
+        },
+        android: {
+            Black: 'GintoNord-Black',
+            BlackItalic: 'GintoNord-BlackItalic',
+            Bold: 'GintoNord-Bold',
+            BoldItalic: 'GintoNord-BoldItalic',
+            Hairline: 'GintoNord-Hairline',
+            HairlineItalic: 'GintoNord-HairlineItalic',
+            Light: 'GintoNord-Light',
+            LightItalic: 'GintoNord-LightItalic',
+            Medium: 'GintoNord-Medium',
+            Regular: 'GintoNord-Regular',
+            RegularItalic: 'GintoNord-RegularItalic',
+            Thin: 'GintoNord-Thin',
+            ThinItalic: 'GintoNord-ThinItalic',
+            Ultra: 'GintoNord-Ultra',
+            UltraItalic: 'GintoNord-UltraItalic',
+            Widths: 'GintoNordWidthsVariable',
+        }
+    }),
+
+}

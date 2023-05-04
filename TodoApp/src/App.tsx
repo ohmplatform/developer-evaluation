@@ -13,7 +13,6 @@ const App = () => {
 
   const theme = useUserThemeStore(state => state.theme);
 
-
   return (
     <GestureHandlerRootView style={styles.rootView}>
       <StatusBar barStyle={theme === UserTheme.DARK ? 'light-content' : 'dark-content'} />

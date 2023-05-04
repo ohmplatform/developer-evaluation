@@ -1,5 +1,11 @@
 ## TODO App
 
+1. Zustand for managing the in-app state.
+2. Async storage for presisting the data in zustand as zustand presist middleware supports async storage.
+3. Lottie React Native
+ 
+ Rest are simple ones would explain that in the video. 
+
 ## React Native Environment Setup
 
 Always refer [React Native public docs](https://reactnative.dev/docs/environment-setup) for most up-to-date information.

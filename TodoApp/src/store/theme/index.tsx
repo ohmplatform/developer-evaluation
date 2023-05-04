@@ -26,5 +26,4 @@ const useUserThemeStore = create<UserThemeState>()(
     )
 );
 
-
 export default useUserThemeStore;

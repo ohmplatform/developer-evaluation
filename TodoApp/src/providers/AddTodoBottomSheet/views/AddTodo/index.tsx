@@ -28,11 +28,11 @@ const AddTodoView = ({ navigateToView }: AddTodoViewProps) => {
 
     return (
         <View style={[styles.container, { backgroundColor: colors.background }]}>
-            <BottomSheetHeader Title='Request Payment' backPress={closeBottomSheet} />
+            <BottomSheetHeader Title='New Todo' backPress={closeBottomSheet} />
             <View style={styles.containerSetting}>
                 <Input
                     InputComponent={BottomSheetTextInput}
-                    placeholder='Add new todo'
+                    placeholder='Add new label'
                     value={todo}
                     onChangeValue={setTodo}
                     heading='Todo'
@@ -42,7 +42,7 @@ const AddTodoView = ({ navigateToView }: AddTodoViewProps) => {
                     gradientColors={['#406BDF', '#5929DF']}
                     mainContainerStyle={styles.buttonStyle}
                     onPress={onPressSubmit}
-                    text={'Submit'}
+                    text={'Add'}
                     type={'large'}
                 />
             </View>

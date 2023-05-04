@@ -6,6 +6,7 @@ import { doc } from 'firebase/firestore';
 import { FIRESTORE_DB } from '../../../../firebase/config';
 import { fontResponsive, wp } from '../../../../utils/responsive';
 import { APP_IMAGES } from '../../../../assets/images';
+import LinearGradient from 'react-native-linear-gradient';
 
 interface Props {
     id: string;
@@ -28,20 +29,38 @@ const TodoItemListView = ({ title, id, done, toggleTodoDone, deleteTodo }: Props
         deleteTodo(docRef);
     }, [docRef]);
 
-    
+    const borderColor = useMemo(()=>{
+        if(done){
+            return (["#D23B8D", "#5C28DE"])
+        }
+        else {
+            return (["#808080", "#808080"])               
+        }
+    },[done])
+
+    // console.log("colro set " , borderColor)
+
     return (
-        <View style={styles.mainContainer}>
-            <TouchableOpacity onPress={toggleDone} style={styles.todo}>
-                {
-                    done ? <Image source={APP_IMAGES.doneIcon} style={styles.doneContainer} /> :
-                        <View style={[styles.pendingContainer]} />
-                }
-                <Text style={[styles.titleText, { color: colors.text }]}>{title}</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={onDeleteTodo}>
-                <Image source={APP_IMAGES.deleteIcon} style={styles.doneContainer} />
-            </TouchableOpacity>
-        </View>
+
+        <LinearGradient
+            colors={borderColor}
+            style={styles.gradient}
+            start={{ x: 1, y: 0 }}
+            end={{ x: 0, y: 1 }}
+        >
+            <View style={[styles.mainContainer, {backgroundColor: colors.background}]}>
+                <TouchableOpacity onPress={toggleDone} style={styles.todo}>
+                    {
+                        done ? <Image source={APP_IMAGES.doneIcon} style={styles.doneContainer} /> :
+                            <View style={[styles.pendingContainer]} />
+                    }
+                    <Text style={[styles.titleText, { color: colors.text }]}>{title}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={onDeleteTodo}>
+                    <Image source={APP_IMAGES.deleteIcon} style={styles.doneContainer} />
+                </TouchableOpacity>
+            </View>
+        </LinearGradient>
     )
 }
 
@@ -53,8 +72,11 @@ const styles = StyleSheet.create({
         borderWidth: StyleSheet.hairlineWidth,
         padding: wp(12),
         borderColor: 'gray',
-        borderRadius: wp(12),
+        borderRadius: wp(24),
         flexDirection: 'row',
+        // backgroundColor: ,
+        // marginTop: wp(5),
+        // marginHorizontal: wp(2),
     },
     titleText: {
         fontSize: fontResponsive(15),
@@ -76,5 +98,13 @@ const styles = StyleSheet.create({
         borderRadius: wp(25),
         borderWidth: wp(1.6),
         borderColor: 'gray',
+    },
+    gradient: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: wp(10),
+        borderRadius: wp(24),
+        padding: wp(4)
+        
     }
 })
